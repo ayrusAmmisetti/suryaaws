@@ -55,6 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>awssurya</finalName>
 	</build>
 
 </project>
