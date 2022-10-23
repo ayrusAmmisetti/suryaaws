@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8080
-ADD target/suryaaws-0.0.1-SNAPSHOT.jar suryaaws-0.0.1-SNAPSHOT.jar
+ADD target/awssurya.jar awssurya.jar
 ENTRYPOINT ["java", "-jar", "/awssurya.jar"]
