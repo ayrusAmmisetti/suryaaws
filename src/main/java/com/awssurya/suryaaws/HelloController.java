@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/")
     public String hello() {
-        return "Surya Ammisetti application for AWS GITHUB CI/CD";
+        return "Surya Ammisetti application for AWS, DOCKER, GITHUB ACTIONS";
     }
 }
