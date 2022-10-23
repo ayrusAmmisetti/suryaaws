@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8080
-ADD target/suryaaws.jar suryaaws.jar
-ENTRYPOINT ["java", "-jar", "/suryaaws.jar"]
+ADD target/suryaaws-0.0.1-SNAPSHOT.jar suryaaws-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "/suryaaws-0.0.1-SNAPSHOT.jar"]
