@@ -26,7 +26,7 @@ jobs:
       run: mvn clean install
       
     -name: Build and push Docker image
-     uses: mr-smithers-execellent/docker-build-push@v5
+     uses: mr-smithers-excellent/docker-build-push@v5
     with:
       image: awssurya/suryaaws
       tage: v1, latest
