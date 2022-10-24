@@ -32,5 +32,5 @@ jobs:
         # push it to ECR so that it can
         # be deployed to ECS.
         #
-        docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
-        docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+        docker tag surya-project:latest public.ecr.aws/d7y4k6y0/surya-project:latest
+        docker push public.ecr.aws/d7y4k6y0/surya-project:latest
