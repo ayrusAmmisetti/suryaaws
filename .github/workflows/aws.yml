@@ -1,8 +1,6 @@
 name: Dokcer image CI to AWS ECS
 
-on:
-  push:
-    branches: [ "master" ]
+on: push
 
 jobs:
   build:
