@@ -1,4 +1,4 @@
-name: Dokcer image CI to AWS ECS
+name: Docker image CI to AWS ECR
 
 on: 
   push:
@@ -28,7 +28,7 @@ jobs:
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         ECR_REPOSITORY: surya-project
-        IMAGE_TAG: ${{ github.sha }}
+        IMAGE_TAG: suryaImageAWS
       run: |
         # Build a docker container and
         # push it to ECR so that it can
