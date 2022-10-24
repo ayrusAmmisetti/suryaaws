@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: build image and deploy
+    name: Build Image
     runs-on: ubuntu-latest
 
     steps:
